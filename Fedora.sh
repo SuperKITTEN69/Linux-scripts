@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # Update package list and upgrade installed packages
-sudo dnf upgrade --refresh -y
+sudo dnf update -y
+sudo dnf upgrade -y
 
 # Install and update Flatpak
 sudo dnf install -y flatpak
